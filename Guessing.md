@@ -1,6 +1,5 @@
 # Number Guessing Game Flowchart
 
-``mermaid
 flowchart TD
     Start([Start]) --> GenerateNumber[Generate Random Number]
     GenerateNumber --> InputGuess[User Inputs Guess]
@@ -15,7 +14,7 @@ flowchart TD
     HighLow -- Too Low --> DisplayLow[Display 'Too Low']
     DisplayHigh --> InputGuess
     DisplayLow --> InputGuess
-    DisplayLow --> InputGuess
+
 
 
 ## Steps Description
