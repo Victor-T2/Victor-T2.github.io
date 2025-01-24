@@ -1,6 +1,6 @@
 # Number Guessing Game Flowchart
 
-```mermaid
+``mermaid
 flowchart TD
     Start([Start]) --> GenerateNumber[Generate Random Number]
     GenerateNumber --> InputGuess[User Inputs Guess]
@@ -14,6 +14,7 @@ flowchart TD
     HighLow -- Too High --> DisplayHigh[Display 'Too High']
     HighLow -- Too Low --> DisplayLow[Display 'Too Low']
     DisplayHigh --> InputGuess
+    DisplayLow --> InputGuess
     DisplayLow --> InputGuess
 
 
@@ -38,7 +39,7 @@ The program checks if the user’s guess matches the randomly generated number:
 If Yes: The game displays the message, "You Guessed Correctly!", and ends.
 If No: The game proceeds to check whether the guess is too high or too low.
 Is the Guess Too High or Too Low?
-The program evaluates whether the user's guess is higher or lower than the randomly generated number:
+The program sees whether the user's guess is higher or lower than the randomly generated number:
 
 If the guess is Too High: The game displays the message, "Too High", and prompts the user to input a new guess.
 If the guess is Too Low: The game displays the message, "Too Low", and prompts the user to input a new guess.
