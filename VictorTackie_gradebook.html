@@ -1,0 +1,45 @@
+VictorTackie_gradebook.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gradebook</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Gradebook</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Student Name</th>
+      <th>Assignment 1</th>
+      <th>Assignment 2</th>
+      <th>Assignment 3</th>
+    </tr>
+  </thead>
+  <tbody id="gradebookBody">
+    <!-- Future rows will be inserted here -->
+  </tbody>
+</table>
+
+<script src="gradebook.js"></script>
+
+</body>
+</html>
